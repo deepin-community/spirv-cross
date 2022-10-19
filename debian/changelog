@@ -1,0 +1,29 @@
+spirv-cross (2021.01.15-4) unstable; urgency=medium
+
+  * Install static libraries in libspirv-cross-c-shared-dev (Closes: #996891)
+
+ -- Dylan Aïssi <daissi@debian.org>  Thu, 21 Oct 2021 21:49:43 +0200
+
+spirv-cross (2021.01.15-3) unstable; urgency=medium
+
+  * Remove Multi-Arch for libspirv-cross-c-shared-dev,
+      suggested by Multi-Arch hinter
+  * Add d/gbp.conf
+  * Fix d/watch
+  * Add patch to make the build reproducible (Closes: #992773)
+
+ -- Dylan Aïssi <daissi@debian.org>  Fri, 27 Aug 2021 14:57:58 +0200
+
+spirv-cross (2021.01.15-2) unstable; urgency=medium
+
+  * Source only upload for migration to testing
+
+ -- Dylan Aïssi <daissi@debian.org>  Thu, 19 Aug 2021 14:56:36 +0200
+
+spirv-cross (2021.01.15-1) unstable; urgency=medium
+
+  * Initial release (Closes: #890471)
+  * Improve d/copyright according to the ftpmasters' comments.
+  * Move maintenance under the X Strike Force umbrella.
+
+ -- Dylan Aïssi <daissi@debian.org>  Wed, 18 Aug 2021 15:09:52 +0200

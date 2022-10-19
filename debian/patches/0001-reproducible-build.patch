@@ -1,0 +1,15 @@
+Description: Make the build reproducible
+Author: Chris Lamb <lamby@debian.org>
+Last-Update: 2021-08-23
+Forwarded: not-needed
+
+--- spirv-cross-2021.01.15.orig/cmake/gitversion.in.h
++++ spirv-cross-2021.01.15/cmake/gitversion.in.h
+@@ -1,6 +1,6 @@
+ #ifndef SPIRV_CROSS_GIT_VERSION_H_
+ #define SPIRV_CROSS_GIT_VERSION_H_
+ 
+-#define SPIRV_CROSS_GIT_REVISION "Git commit: @spirv-cross-build-version@ Timestamp: @spirv-cross-timestamp@"
++#define SPIRV_CROSS_GIT_REVISION "(Debian package)"
+ 
+ #endif

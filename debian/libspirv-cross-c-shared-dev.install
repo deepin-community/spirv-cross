@@ -1,0 +1,5 @@
+usr/include
+usr/lib/*/pkgconfig
+usr/lib/*/libspirv-cross-c-shared.so
+usr/lib/*/libspirv-cross*.a
+usr/share/spirv_cross*
